@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-burgundy-50: 247 242 244;
+    --color-burgundy-100: 239 230 233;
+    --color-burgundy-200: 223 204 211;
+    --color-burgundy-300: 199 166 177;
+    --color-burgundy-400: 171 121 137;
+    --color-burgundy-500: 143 82 101;
+    --color-burgundy-600: 122 57 78;
+    --color-burgundy-700: 102 43 63;
+    --color-burgundy-800: 85 36 53;
+    --color-burgundy-900: 73 32 46;
+    --color-burgundy-950: 41 16 25;
+  }
+}
+
+.bg-burgundy-600 {
+  background-color: rgb(var(--color-burgundy-600));
+}
+
+.bg-burgundy-700 {
+  background-color: rgb(var(--color-burgundy-700));
+}
+
+.bg-burgundy-800 {
+  background-color: rgb(var(--color-burgundy-800));
+}
+
+.hover\:bg-burgundy-700:hover {
+  background-color: rgb(var(--color-burgundy-700));
+}
+
+.hover\:bg-burgundy-800:hover {
+  background-color: rgb(var(--color-burgundy-800));
+}
